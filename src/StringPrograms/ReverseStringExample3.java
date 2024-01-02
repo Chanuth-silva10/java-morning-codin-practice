@@ -1,2 +1,25 @@
-package StringPrograms;public class ReverseStringExample3 {
+package StringPrograms;
+
+import java.util.Scanner;
+
+// How to reserve a string in Java without using reverse function
+
+public class ReverseStringExample3 {
+    public static void main(String[] arg) {
+        ReverseStringExample3 rev = new ReverseStringExample3();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a string : ");
+        String s = sc.nextLine();
+        System.out.println("Reverse String  is : " + rev.reverse(s)); //calling method
+    }
+
+    //calling method
+    static String reverse(String str) {
+        String rev = "";
+        for (int i = str.length(); i > 0; --i) {
+            rev = rev + (str.charAt(i - 1));
+        }
+        return rev;
+    }
 }
+
