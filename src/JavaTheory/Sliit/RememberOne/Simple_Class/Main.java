@@ -10,7 +10,7 @@
 //4.Creating Object
 
 
-package Simple_Class;
+package JavaTheory.Sliit.RememberOne.Simple_Class;
 
 class Person{
 	private String name;

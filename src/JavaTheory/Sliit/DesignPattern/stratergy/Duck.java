@@ -1,4 +1,4 @@
-package design.pattern.stratergy;
+package JavaTheory.Sliit.DesignPattern.stratergy;
 
 public abstract class Duck {
 	

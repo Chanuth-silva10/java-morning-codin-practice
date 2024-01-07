@@ -1,4 +1,4 @@
-package design.pattern.adapter;
+package JavaTheory.Sliit.DesignPattern.adapter;
 
 public class PersonAdapter implements IRemotePerson{
 	

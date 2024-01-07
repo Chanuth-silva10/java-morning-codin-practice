@@ -1,4 +1,4 @@
-package design.pattern.proxy;
+package JavaTheory.Sliit.DesignPattern.proxy;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;

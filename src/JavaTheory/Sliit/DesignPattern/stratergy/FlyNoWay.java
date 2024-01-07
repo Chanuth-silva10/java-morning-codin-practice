@@ -1,4 +1,4 @@
-package design.pattern.stratergy;
+package JavaTheory.Sliit.DesignPattern.stratergy;
 
 public class FlyNoWay implements IFlyBehaviour{
 

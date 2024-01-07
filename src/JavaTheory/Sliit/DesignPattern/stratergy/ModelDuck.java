@@ -1,5 +1,5 @@
 
-package design.pattern.stratergy;
+package JavaTheory.Sliit.DesignPattern.stratergy;
 
 public class ModelDuck extends Duck{
 	

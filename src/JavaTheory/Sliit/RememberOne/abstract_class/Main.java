@@ -1,4 +1,4 @@
-package abstract_class;
+package JavaTheory.Sliit.RememberOne.abstract_class;
 //Abstract class
 //you cant create objects of an abstract class
 abstract class Shape{

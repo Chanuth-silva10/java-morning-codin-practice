@@ -1,4 +1,4 @@
-package design.pattern.templateMethod;
+package JavaTheory.Sliit.DesignPattern.templateMethod;
 
 public class Tea extends Beverage {
 

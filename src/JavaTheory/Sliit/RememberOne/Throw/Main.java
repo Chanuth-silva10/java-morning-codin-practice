@@ -1,4 +1,4 @@
-package Throw;
+package JavaTheory.Sliit.RememberOne.Throw;
 //Exceptions
 //Throw and Throws(Throwing an exception)
 //User defined exceptions

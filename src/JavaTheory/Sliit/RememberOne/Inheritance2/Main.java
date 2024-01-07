@@ -1,4 +1,4 @@
-package Inheritance2;
+package JavaTheory.Sliit.RememberOne.Inheritance2;
 
 
 class Person{

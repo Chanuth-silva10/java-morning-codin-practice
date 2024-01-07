@@ -14,7 +14,7 @@
 // 6.Creating Object
 // 7.Using object of the Base Class
 
-package Inheritence;
+package JavaTheory.Sliit.RememberOne.Inheritence;
 
 //import Inheritence.Person.Student;
 

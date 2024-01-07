@@ -1,4 +1,4 @@
-package JavaTheory.Sliit.LabSheet.Lab_04.Exercise_1;
+package JavaTheory.Sliit.LabSheet.Lab_04;
 
 public class Student {
 

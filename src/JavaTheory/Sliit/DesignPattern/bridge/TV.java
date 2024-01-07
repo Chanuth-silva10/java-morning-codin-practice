@@ -1,4 +1,4 @@
-package design.pattern.bridge;
+package JavaTheory.Sliit.DesignPattern.bridge;
 
 public interface TV {
 	

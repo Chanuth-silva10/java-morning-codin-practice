@@ -1,4 +1,4 @@
-package Exe1;
+package JavaTheory.Sliit.LabSheet.Lab_06.Exe1;
 
 public class MainApp {
 

@@ -1,4 +1,4 @@
-package Exception_handling_normal;
+package JavaTheory.Sliit.RememberOne.Exception_handling_normal;
 
 public class Excep_1 {
 

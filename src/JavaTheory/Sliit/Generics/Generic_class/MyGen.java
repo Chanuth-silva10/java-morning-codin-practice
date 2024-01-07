@@ -1,2 +1,13 @@
-package JavaTheory.Sliit.Generics.Generic_class;public class MyGen {
+package JavaTheory.Sliit.Generics.Generic_class;
+
+public class MyGen<T> {
+    T obj;
+
+    void add(T val){
+        this.obj = val;
+    }
+    T get() {
+        return obj;
+    }
+
 }

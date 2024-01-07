@@ -1,4 +1,4 @@
-package design.pattern.decorator;
+package JavaTheory.Sliit.DesignPattern.decorator;
 
 public abstract class EmployeeQualification extends Employee{
 	

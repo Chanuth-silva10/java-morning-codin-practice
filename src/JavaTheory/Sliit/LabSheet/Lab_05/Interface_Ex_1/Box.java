@@ -1,4 +1,4 @@
-package JavaTheory.Sliit.LabSheet.Lab_05.Ex_1;
+package JavaTheory.Sliit.LabSheet.Lab_05.Interface_Ex_1;
 
 public class Box implements ICompute{
     private int length, width, height;

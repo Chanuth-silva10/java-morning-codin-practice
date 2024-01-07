@@ -1,4 +1,4 @@
-package Static;
+package JavaTheory.Sliit.RememberOne.Static;
 
 class Student{
 	private String ditno;

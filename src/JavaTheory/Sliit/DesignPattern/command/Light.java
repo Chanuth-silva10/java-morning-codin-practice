@@ -1,4 +1,4 @@
-package design.pattern.command;
+package JavaTheory.Sliit.DesignPattern.command;
 
 public class Light {
 	

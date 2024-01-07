@@ -1,4 +1,4 @@
-package JavaTheory.Sliit.LabSheet.Lab_06.Exception;
+package JavaTheory.Sliit.LabSheet.Lab_06;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ public class Exception {
     public static void main(String[] args) {
 
         int maxSubjects;
-        int [] marks = new int[5];
+        int[] marks = new int[5];
         int total = 0;
         double avg = 0;
 
@@ -20,11 +20,10 @@ public class Exception {
 
 
             // 2. Using a for loop input marks
-            for(int i = 0; i<maxSubjects; i++) {
+            for (int i = 0; i < maxSubjects; i++) {
 
                 System.out.println("Marks :");
                 marks[i] = sc.nextInt();
-
 
 
                 // 3. Calculate the avg marks
@@ -32,39 +31,33 @@ public class Exception {
 
             }
 
-            avg = total/maxSubjects;
+            avg = total / maxSubjects;
 
             System.out.println(avg);
 
             // 4. Use a try catch block to prevent the following run time errors
 
             //   (a) Input valid integers to the inputs
-        }catch(InputMismatchException e) {
+        } catch (InputMismatchException e) {
             System.out.println("Input valid integers to the inputs : " + e);
         }
 
         //   (b) ArithmeticException division by zero
-        catch(ArithmeticException e) {
+        catch (ArithmeticException e) {
             System.out.println(e);
         }
 
         //   (c) ArrayIndexOutOfBounds Exception -
-        catch(ArrayIndexOutOfBoundsException e) {
+        catch (ArrayIndexOutOfBoundsException e) {
             System.out.println(e);
-        }
-
-        catch (java.lang.Exception e) {
+        } catch (java.lang.Exception e) {
             System.out.println(e);
-        }
-
-        finally {
+        } finally {
             System.out.println(" ");
             System.out.println("This code will be gurrentied to run");
         }
 
         System.out.println("The end");
-
-
 
 
     }

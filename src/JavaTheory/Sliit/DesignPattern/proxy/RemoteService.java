@@ -1,4 +1,4 @@
-package design.pattern.proxy;
+package JavaTheory.Sliit.DesignPattern.proxy;
 
 public interface RemoteService {
 	

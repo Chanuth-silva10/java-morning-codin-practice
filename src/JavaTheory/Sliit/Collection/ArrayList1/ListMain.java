@@ -1,4 +1,4 @@
-package JavaTheory.Sliit.Collection1;
+package JavaTheory.Sliit.Collection.ArrayList1;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,9 +35,10 @@ public class ListMain {
 
         int total = 0;
         for (Integer x : list) {
+            System.out.print(x + " ");
             total += x;
         }
-        System.out.println("Total is  = " + total);
+        System.out.println("Total is  = " + total + " ");
 
     }
 }

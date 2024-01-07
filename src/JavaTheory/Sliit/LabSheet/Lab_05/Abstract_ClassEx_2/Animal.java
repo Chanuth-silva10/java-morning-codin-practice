@@ -1,4 +1,4 @@
-package JavaTheory.Sliit.LabSheet.Lab_05.Ex_2;
+package JavaTheory.Sliit.LabSheet.Lab_05.Abstract_ClassEx_2;
 
 abstract public class Animal {
     private String name;
@@ -7,7 +7,6 @@ abstract public class Animal {
     }
 
     abstract public String speak();// no method body
-
 
     public Animal() {
         System.out.println("Animal constructor called");

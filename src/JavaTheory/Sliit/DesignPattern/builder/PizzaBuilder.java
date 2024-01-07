@@ -1,4 +1,4 @@
-package design.pattern.builder;
+package JavaTheory.Sliit.DesignPattern.builder;
 
 public abstract class PizzaBuilder {
 	
